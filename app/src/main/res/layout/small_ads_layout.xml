@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.gms.ads.formats.UnifiedNativeAdView
+        android:id="@+id/nativeAds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/wraperIconAdsHome"
+                    android:layout_alignParentLeft="true"
+                    android:elevation="0dp"
+                    app:cardElevation="0dp"
+                    app:cardCornerRadius="3dp"
+                    android:background="@color/primaryColor"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp">
+                    <ImageView
+                        android:id="@+id/image"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/primaryColorVariant"
+                        android:scaleType="fitXY" />
+
+                </androidx.cardview.widget.CardView>
+
+                <LinearLayout
+                    android:paddingRight="10dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/wraperIconAdsHome"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <androidx.cardview.widget.CardView
+                            android:elevation="0dp"
+                            app:cardElevation="0dp"
+                            app:cardCornerRadius="3dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:gravity="center"
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:text="Ad"
+                                android:textColor="@color/primaryColor"
+                                android:fontFamily="@font/quicksand_medium"
+                                android:background="@color/acentPink"
+                                android:textSize="8dp"
+                                android:includeFontPadding="false"/>
+                        </androidx.cardview.widget.CardView>
+
+                        <TextView
+                            android:id="@+id/headline"
+                            android:includeFontPadding="false"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:maxLines="1"
+                            android:ellipsize="end"
+
+                            android:text="Bigo Live - App HOT 18+"
+                            android:fontFamily="@font/quicksand_medium"
+                            android:textSize="12dp"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/secondary"
+                        android:includeFontPadding="false"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="2"
+                        android:alpha="0.6"
+
+                        android:ellipsize="end"
+                        android:text="Download aplikasi Bigo Live sekaran dan dapatkan kesenangna yan lebih menarik lagi."
+                        android:textSize="10dp"/>
+                </LinearLayout>
+
+
+            </RelativeLayout>
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/wraperIconAdsHome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="3dp"
+                android:elevation="0dp"
+                app:cardElevation="0dp"
+                app:cardBackgroundColor="@color/primaryColorVariant">
+
+                <TextView
+                    android:id="@+id/btnAction"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:gravity="center"
+                    android:text="Install Sekarang"
+                    android:fontFamily="@font/quicksand_medium"
+                    android:textColor="@color/primaryColor"
+                    android:textSize="12dp"/>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </com.google.android.gms.ads.formats.UnifiedNativeAdView>
+</FrameLayout>

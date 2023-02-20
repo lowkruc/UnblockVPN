@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:weightSum="1"
+    android:orientation="horizontal"
+    android:paddingHorizontal="40dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="60dp"
+    tools:layout_height="60dp">
+
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_weight="0.4"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_arrow_down"
+                app:tint="@color/accentGreen" />
+            <TextView
+                android:id="@+id/downloadSpeedNotif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textColor="@color/primaryColorVariant"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="42"/>
+            <TextView
+                android:id="@+id/downloadSizeNotif"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:alpha="0.4"
+                android:fontFamily="@font/quicksand_medium"
+                android:textColor="@color/primaryColorVariant"
+                android:text="kbps"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_weight="0.2"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_weight="0.4"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_arrow_up"
+                app:tint="@color/acentPink" />
+            <TextView
+                android:id="@+id/uploadSpeedNotif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="42"/>
+            <TextView
+                android:id="@+id/uploadSizeNotif"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:alpha="0.4"
+                android:fontFamily="@font/quicksand_medium"
+                android:textColor="@color/primaryColorVariant"
+                android:text="kbps"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

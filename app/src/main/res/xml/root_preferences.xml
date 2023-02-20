@@ -1,0 +1,22 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:icon="@drawable/ic_theme"
+        app:defaultValue="Light mode"
+        app:entries="@array/theme"
+        app:entryValues="@array/themeValue"
+        app:key="theme"
+        app:title="@string/change_theme_settings"
+        app:useSimpleSummaryProvider="true" />
+
+<!--    <ListPreference-->
+<!--        android:icon="@drawable/ic_translate_mini"-->
+<!--        app:defaultValue="en"-->
+<!--        app:entries="@array/language"-->
+<!--        app:entryValues="@array/languageValue"-->
+<!--        app:key="language"-->
+<!--        app:title="@string/change_language_settings"-->
+<!--        app:useSimpleSummaryProvider="true" />-->
+
+</PreferenceScreen>

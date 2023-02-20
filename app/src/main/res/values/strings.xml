@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Unblock VPN</string>
+    <string name="app_name_short">UnblockVPN</string>
+    <string name="share_app_text">Share App</string>
+    <string name="rate_apps_text">Rate Apps</string>
+    <string name="language_text">Language</string>
+    <string name="about_text">About</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="settings_text">Settings</string>
+    <string name="single_app_name">UnblockVPN</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="start_text">START</string>
+    <string name="not_connected_text">Not Connected</string>
+    <string name="stop_text">STOP</string>
+    <!-- Preference Titles -->
+    <string name="messages_header" translatable="false">Messages</string>
+    <string name="sync_header" translatable="false">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title" translatable="false">Your signature</string>
+    <string name="reply_title" translatable="false">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title" translatable="false">Sync email periodically</string>
+    <string name="attachment_title" translatable="false">Download incoming attachments</string>
+    <string name="attachment_summary_on" translatable="false">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off" translatable="false">Only download attachments when manually requested</string>
+    <string name="title_activity_settings" translatable="false">SettingsActivity</string>
+    <string name="connected_notif">Connected</string>
+    <string name="info_notif">Unblock VPN Service is Running</string>
+    <string name="disconnect_action">DISCONNECT</string>
+    <string name="change_theme_settings">Change Theme</string>
+    <string name="change_language_settings">Language</string>
+    <string name="connected_status_text" translatable="false">Connected</string>
+    <string name="idAds">ca-app-pub-5977365730645902~2702870526</string>
+    <string name="nativAds">ca-app-pub-5977365730645902/9067300025</string>
+    <string name="interisitalAds">ca-app-pub-5977365730645902/5137462171</string>
+    <string name="bannerAds">ca-app-pub-5977365730645902/6450543849</string>
+    <string name="unblock_any_site">UNBLOCK ANY SITE</string>
+    <string name="free_proxy_vpn_unblock">FREE PROXY VPN UNBLOCK</string>
+    <string name="tap_start_button_to_unblock">Tap Start Button to Unblock</string>
+</resources>

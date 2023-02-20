@@ -1,0 +1,51 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.UnblockVPNProxyWebsitesBrowser" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryColorVariant</item>
+        <item name="colorAccent">@color/acentPink</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/statusBarColor</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">?attr/isLightTheme</item>
+<!--        <item name="android:background">@color/primaryColor</item>-->
+        <item name="android:fontFamily">@font/quicksand</item>
+        <item name="android:textColor">@color/primaryColorVariant</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="ToolbarStyle" parent="Widget.MaterialComponents.Toolbar.Primary">
+        <item name="android:textColorPrimary">@color/primaryColorVariant</item>
+        <item name="iconTint">@color/primaryColorVariant</item>
+        <item name="colorOnPrimary">@color/primaryColorVariant</item>
+    </style>
+
+    <!-- Toolbar -->
+    <style name="MyToolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="drawerArrowStyle">@style/drawerStyle</item>
+    </style>
+
+    <!-- Toolbar -->
+    <style name="drawerStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/primaryColorVariant</item>
+    </style>
+
+    <declare-styleable name="RippleBackground">
+        <attr name="rb_color" format="color" />
+        <attr name="rb_strokeWidth" format="dimension"/>
+        <attr name="rb_radius" format="dimension"/>
+        <attr name="rb_duration" format="integer"/>
+        <attr name="rb_rippleAmount" format="integer"/>
+        <attr name="rb_scale" format="float"/>
+        <attr name="rb_type" format="enum">
+            <enum name="fillRipple" value="0"/>
+            <enum name="strokeRipple" value="1"/>
+        </attr>
+    </declare-styleable>
+
+
+
+</resources>

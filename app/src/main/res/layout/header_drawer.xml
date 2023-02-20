@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#10000000"
+    android:paddingVertical="20dp">
+
+    <TextView
+        android:background="@android:color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/single_app_name"
+        android:textSize="16sp"
+        android:fontFamily="@font/quicksand_bold"/>
+    <TextView
+        android:background="@android:color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/free_proxy_vpn_unblock"
+        android:textSize="14sp"
+        android:fontFamily="@font/quicksand"/>
+
+</LinearLayout>
